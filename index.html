@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/26ca73dfc6.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: darkolivegreen;
+            padding: 8px 12px;
+        }
+        .navbar_menu{
+            display: flex;
+            list-style: none;
+            padding-left: 0;
+        }
+        .navbar_menu li{
+            padding: 8px 12px;
+        }
+        .navbar_menu li:hover{
+            background-color:darkkhaki;
+            border-radius: 4px;
+        }
+        .navbar_icons{
+            display: flex;
+            color: white;
+            list-style: none;
+        }
+        .navbar_icons li{
+            padding: 8px 12px;    
+         }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <img src="image/hi.png" alt="" style="width: 35px;">
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="home">홈</a></li>
+            <li><a href="menu1">메뉴1</a></li>
+            <li><a href="menu2">메뉴2</a></li>
+            <li><a href="menu3">메뉴3</a></li>
+            <li><a href="menu4">메뉴4</a></li>
+        </ul>
+        <ul class="navbar_icons">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+        </ul>
+    </nav>
+</body>
+</html>
